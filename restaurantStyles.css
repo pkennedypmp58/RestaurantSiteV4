@@ -1,0 +1,31 @@
+
+body {
+	font-family: 'Racing Sans One', cursive;
+	src: url("https://fonts.googleapis.com/css?family=Racing+Sans+One");
+	/***background-color: lightblue;***/
+} 
+
+h1 {
+	color: red;
+	font-size: 250%;
+	text-align: center;
+}
+
+h4 {
+	font-style: normal;
+	/***color: black;***/
+	font-size: 100%;
+	text-align: right;
+}
+
+footer {
+	color: black;
+	text-align: center;
+	font-weight: bold;
+}
+
+pre {
+	text-align: center;
+}
+
+a:hover {font-weight: bold;}

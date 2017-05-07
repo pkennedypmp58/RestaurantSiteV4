@@ -1,0 +1,175 @@
+<!-- =============================================================== -->
+<!-- Description: The is the CONTACT US page for Awesome Eats.       -->
+<!--                                                                 -->
+<!-- Create Date: 20170401                                           -->
+<!-- Created By:  Patrick Kennedy                                    -->
+<!--                                                                 -->
+<!-- =============================================================== -->
+<!-- Modification Log                                                -->
+<!-- --------------------------------------------------------------- -->
+<!-- Date     Changed By   Project  Description Of Changes           -->
+<!-- -------- ------------ -------- ------------------------------- -->
+<!-- 20170401 Pkennedy     AE001    Initial Build.                   -->
+<!--                                                                 -->
+<!--                                                                 -->
+<!-- =============================================================== -->
+<!-- =============== -->
+<!DOCTYPE html>
+<html>
+
+	<!-- =========================================================== -->
+	<!-- Page Heading                                                -->
+	<!-- =========================================================== -->
+	<head>
+		<link rel="stylesheet" type="text/css" href="restaurantStyles.css">
+		<title> AWESOME EATS Contact Us Page </title>
+		<style type="text/css"> a {text-decoration: none} </style>
+	</head>
+	
+	<body>
+	
+	<!-- =========================================================== -->
+	<!-- Menu Bar                                                    -->
+	<!-- =========================================================== -->	
+
+	
+	<h1>
+		AWESOME EATS 
+	</h1>	
+	<hr>
+	<p>
+		<a href ="AwesomeEatsHomeV3.html" 
+			 style="font-size:100%;";> Home &nbsp &nbsp </a>
+			 
+		<a href ="AwesomeEatsMenuV3.html" 
+			 style="font-size:100%;"> Menu &nbsp &nbsp </a>
+
+		<a href ="AwesomeEatsContactUsV3.html" 
+			 style="font-size:100%;"> Contact Us </a>
+		<hr>
+	</p>
+	
+
+	<!-- =========================================================== -->
+	<!-- Start Styles. Move the 'style' tags and everything between them to between the 'head' tags -->
+	<!-- =========================================================== -->
+	<style type="text/css">
+		.myTable {border-collapse:collapse;font-family:Georgia, Garamond, Serif;color:green; font-style: normal; }
+		/***.myTable th { width:50%;font:/***bold***/ /***18px/1.1em Arial, Helvetica, Sans-Serif;text-shadow: 1px 1px 4px black;letter-spacing:0.1em; color:white; }***/
+		/***.myTable td, .myTable th { padding:2px;}***/
+		/***.myTable td { line-height:2.0em; }  /*** spacing btwn cells ***/
+	</style>
+	
+	<!-- =========================================================== -->
+	<!-- Define Table and Headings                                   -->
+	<!-- =========================================================== -->	
+	<table class="myTable">
+		<tr>
+			<th> <!-- Table Header goes here... if you want one --></th>
+		</tr>
+
+	<!-- =========================================================== -->
+	<!-- Customer Contact Information                                -->
+	<!-- =========================================================== -->
+		<tr>
+			<td> 
+				<h4 style="text-align:right">Name: </h4>
+			</td>
+			<td>
+				<input type="text" name="name" />
+			</td>
+		</tr>
+		<tr>
+			<td> 
+				<h4 style="text-align:right">Email: </h4> 
+			</td>
+			<td>
+				<input type="text" name="email" />
+			</td>
+		</tr>
+		<tr>
+			<td> 
+				<h4 style="text-align:right">Phone: </h4> 
+			</td>
+			<td>
+				<input type="text" name="phone" />
+			</td>
+		</tr>
+		
+	<!-- =========================================================== -->
+	<!-- Reasons                                                     -->
+	<!-- =========================================================== -->
+		<tr>
+			<td>
+				<h4 style="text-align:right">Reason for Inquiry:</h4>
+			</td>
+			<td>
+				<select name="reason">
+					<option value="Catering">Catering</option>
+					<option value="Private Party">Private Party</option>
+					<option value="Feedback">Feedback</option>
+					<option value="Other">Other</option>  
+				</select>
+			</td>
+		</tr>
+
+	<!-- =========================================================== -->
+	<!-- Additional Information                                      -->
+	<!-- =========================================================== -->
+		<tr>
+			<td valign="top">
+				<h4 style="text-align:right"> Additional Information: </h4>
+			</td>
+			<td>
+				<textarea name="Additional Information" rows="10" cols="30"></textarea>
+			</td>
+		</tr>
+
+	<!-- =========================================================== -->
+	<!-- Have You Been To The Restaurant                             -->
+	<!-- =========================================================== -->
+		<tr>
+			<td> <h4 style="text-align:right">Have you been the the restaurant? </h4> </td>
+			<td> <input type="radio" name="answer" value="No"/checked>No
+				 <input type="radio" name="answer" value="Yes"/>Yes
+			</td> 
+		</tr>
+
+	<!-- =========================================================== -->
+	<!-- Best days to contact you                                    -->
+	<!-- =========================================================== -->
+		<tr>
+			<td> <h4 style="text-align:right">Best days to contact you: </h4> </td>
+			<td> <input type="checkbox" name="conactday" value="Monday"/checked>M
+				 <input type="checkbox" name="conactday" value="Tuesday"/>T
+				 <input type="checkbox" name="conactday" value="Wednesday"/>W
+				 <input type="checkbox" name="conactday" value="Thursday"/>Th
+				 <input type="checkbox" name="conactday" value="Friday"/>F
+			</td> 
+		</tr>
+
+	<!-- ============================================================ -->
+	<!-- Send Request                                                 -->
+	<!-- ============================================================ -->
+		<tr>
+			<td>
+			</td>
+			<td>
+				<p style="text-align:center"> 
+					<input type="submit" name="Send Request" value="Send Request">
+				</p>
+			</td>
+		</tr>
+
+	</table>
+
+		<hr>
+		<footer>
+			<pre>
+				2805 Dodd Rd., Golden Valley, MN  55458  
+				763-593-3554
+			</pre>
+			<hr>
+		</footer>
+	</body>
+</html>
